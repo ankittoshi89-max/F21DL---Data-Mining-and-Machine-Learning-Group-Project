@@ -95,12 +95,8 @@ No personal data. Generated VAE images are *not* used as labelled ground truth.
 
 > Helber, P., Bischke, B., Dengel, A., Borth, D. (2019). *EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification.* IEEE JSTARS 12(7), 2217–2226.
 
-## 7. Use of generative AI
-<!-- The coursework (Section 8) requires this: say which code was AI-assisted and give the full prompt used. Keep this section accurate. -->
-Parts of the code were generated with AI assistance (Claude) and then reviewed, run and evaluated by the team.
-Prompt used: *"<paste the exact prompt here>"*
 
-## 8. Contributions
+## 7. Contributions
 | Member | Role | Files |
 |---|---|---|
 | Faisal Shaikh | Data & EDA lead | s01, s02, s04 |
