@@ -1,0 +1,41 @@
+{
+  "model": "decision_tree__visible",
+  "accuracy": 0.6783,
+  "macro_precision": 0.6738,
+  "macro_recall": 0.6738,
+  "macro_f1": 0.6733,
+  "weighted_f1": 0.6781,
+  "per_class_f1": {
+    "AnnualCrop": 0.659,
+    "Forest": 0.9121,
+    "HerbaceousVegetation": 0.6139,
+    "Highway": 0.372,
+    "Industrial": 0.8401,
+    "Pasture": 0.7484,
+    "PermanentCrop": 0.5333,
+    "Residential": 0.6193,
+    "River": 0.5384,
+    "SeaLake": 0.8968
+  },
+  "per_class_recall": {
+    "AnnualCrop": 0.64,
+    "Forest": 0.9111,
+    "HerbaceousVegetation": 0.6289,
+    "Highway": 0.368,
+    "Industrial": 0.8613,
+    "Pasture": 0.7633,
+    "PermanentCrop": 0.5333,
+    "Residential": 0.6489,
+    "River": 0.5147,
+    "SeaLake": 0.8689
+  },
+  "feature_set": "visible",
+  "n_features": 6,
+  "best_params": {
+    "criterion": "gini",
+    "max_depth": "15",
+    "min_samples_leaf": "5"
+  },
+  "val_macro_f1": 0.6747,
+  "tuning_time_s": 6.1
+}

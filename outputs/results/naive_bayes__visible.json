@@ -1,0 +1,39 @@
+{
+  "model": "naive_bayes__visible",
+  "accuracy": 0.4486,
+  "macro_precision": 0.4355,
+  "macro_recall": 0.4532,
+  "macro_f1": 0.4177,
+  "weighted_f1": 0.4234,
+  "per_class_f1": {
+    "AnnualCrop": 0.3791,
+    "Forest": 0.7782,
+    "HerbaceousVegetation": 0.2754,
+    "Highway": 0.0341,
+    "Industrial": 0.7333,
+    "Pasture": 0.4168,
+    "PermanentCrop": 0.277,
+    "Residential": 0.3368,
+    "River": 0.3168,
+    "SeaLake": 0.6291
+  },
+  "per_class_recall": {
+    "AnnualCrop": 0.3378,
+    "Forest": 0.9044,
+    "HerbaceousVegetation": 0.2289,
+    "Highway": 0.0187,
+    "Industrial": 0.8027,
+    "Pasture": 0.76,
+    "PermanentCrop": 0.2293,
+    "Residential": 0.3244,
+    "River": 0.392,
+    "SeaLake": 0.5333
+  },
+  "feature_set": "visible",
+  "n_features": 6,
+  "best_params": {
+    "var_smoothing": "1e-09"
+  },
+  "val_macro_f1": 0.4221,
+  "tuning_time_s": 0.1
+}

@@ -1,0 +1,41 @@
+{
+  "model": "random_forest__all",
+  "accuracy": 0.9032,
+  "macro_precision": 0.8991,
+  "macro_recall": 0.8996,
+  "macro_f1": 0.8992,
+  "weighted_f1": 0.9024,
+  "per_class_f1": {
+    "AnnualCrop": 0.8706,
+    "Forest": 0.9889,
+    "HerbaceousVegetation": 0.9371,
+    "Highway": 0.7119,
+    "Industrial": 0.9166,
+    "Pasture": 0.903,
+    "PermanentCrop": 0.8476,
+    "Residential": 0.8857,
+    "River": 0.9382,
+    "SeaLake": 0.9922
+  },
+  "per_class_recall": {
+    "AnnualCrop": 0.86,
+    "Forest": 0.9889,
+    "HerbaceousVegetation": 0.96,
+    "Highway": 0.6853,
+    "Industrial": 0.9227,
+    "Pasture": 0.9,
+    "PermanentCrop": 0.8453,
+    "Residential": 0.8956,
+    "River": 0.952,
+    "SeaLake": 0.9867
+  },
+  "feature_set": "all",
+  "n_features": 32,
+  "best_params": {
+    "max_depth": "30",
+    "max_features": "sqrt",
+    "n_estimators": "300"
+  },
+  "val_macro_f1": 0.8999,
+  "tuning_time_s": 11.7
+}

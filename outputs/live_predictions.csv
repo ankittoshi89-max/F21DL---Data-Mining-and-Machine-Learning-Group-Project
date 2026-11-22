@@ -1,0 +1,2 @@
+file,model,tiles,prediction,confidence,second,third
+data\raw\EuroSAT_RGB\EuroSAT_RGB\Forest\Forest_1.jpg,cnn_simple__rgb,1,Forest,0.96,AnnualCrop,River

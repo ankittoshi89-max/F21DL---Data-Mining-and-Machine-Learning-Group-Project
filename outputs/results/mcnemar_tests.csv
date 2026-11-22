@@ -1,0 +1,8 @@
+model_a,model_b,a_right_b_wrong,a_wrong_b_right,p_value
+cnn_simple__ms,mlp__all,155,47,1.1456314893277114e-14
+cnn_simple__ms,cnn_simple__rgb,209,62,8.484798190562829e-20
+cnn_simple__ms,logistic_regression__all,295,37,4.520208543311832e-51
+mlp__all,cnn_simple__rgb,191,152,0.040032537463659826
+mlp__all,logistic_regression__all,231,81,7.416647056175164e-18
+cnn_simple__rgb,logistic_regression__all,280,169,1.8205908882246677e-07
+cnn_simple__rgb,mlp__all,152,191,0.040032537463659826

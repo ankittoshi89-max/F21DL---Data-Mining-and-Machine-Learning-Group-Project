@@ -1,0 +1,88 @@
+|--- B12_mean <= -0.41
+|   |--- B11_mean <= -1.43
+|   |   |--- B11_mean <= -1.54
+|   |   |   |--- NDVI_std <= 1.05
+|   |   |   |   |--- class: 9
+|   |   |   |--- NDVI_std >  1.05
+|   |   |   |   |--- NDBI_mean <= -1.12
+|   |   |   |   |   |--- class: 9
+|   |   |   |   |--- NDBI_mean >  -1.12
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |--- B11_mean >  -1.54
+|   |   |   |--- B11_std <= 1.09
+|   |   |   |   |--- NDBI_std <= 1.03
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |--- NDBI_std >  1.03
+|   |   |   |   |   |--- class: 8
+|   |   |   |--- B11_std >  1.09
+|   |   |   |   |--- class: 9
+|   |--- B11_mean >  -1.43
+|   |   |--- NDVI_std <= -0.43
+|   |   |   |--- B05_mean <= -0.65
+|   |   |   |   |--- B02_std <= -0.71
+|   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |--- B02_std >  -0.71
+|   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |--- B05_mean >  -0.65
+|   |   |   |   |--- B07_std <= -0.00
+|   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |--- B07_std >  -0.00
+|   |   |   |   |   |--- truncated branch of depth 8
+|   |   |--- NDVI_std >  -0.43
+|   |   |   |--- NDWI_std <= 0.84
+|   |   |   |   |--- B05_mean <= -0.44
+|   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |--- B05_mean >  -0.44
+|   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |--- NDWI_std >  0.84
+|   |   |   |   |--- NDVI_std <= 1.12
+|   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |--- NDVI_std >  1.12
+|   |   |   |   |   |--- truncated branch of depth 11
+|--- B12_mean >  -0.41
+|   |--- NDWI_std <= -0.20
+|   |   |--- NDVI_mean <= 0.65
+|   |   |   |--- B07_mean <= 0.16
+|   |   |   |   |--- NDWI_std <= -0.52
+|   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |--- NDWI_std >  -0.52
+|   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |--- B07_mean >  0.16
+|   |   |   |   |--- B09_mean <= 0.74
+|   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |--- B09_mean >  0.74
+|   |   |   |   |   |--- truncated branch of depth 11
+|   |   |--- NDVI_mean >  0.65
+|   |   |   |--- B09_mean <= -0.04
+|   |   |   |   |--- NDBI_std <= 0.63
+|   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |--- NDBI_std >  0.63
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |--- B09_mean >  -0.04
+|   |   |   |   |--- NDWI_std <= -0.71
+|   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |--- NDWI_std >  -0.71
+|   |   |   |   |   |--- truncated branch of depth 11
+|   |--- NDWI_std >  -0.20
+|   |   |--- B02_std <= 1.10
+|   |   |   |--- B11_std <= 0.37
+|   |   |   |   |--- B8A_mean <= 0.37
+|   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |--- B8A_mean >  0.37
+|   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |--- B11_std >  0.37
+|   |   |   |   |--- NDWI_std <= 0.89
+|   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |--- NDWI_std >  0.89
+|   |   |   |   |   |--- truncated branch of depth 10
+|   |   |--- B02_std >  1.10
+|   |   |   |--- B8A_mean <= 0.72
+|   |   |   |   |--- B01_std <= 0.68
+|   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |--- B01_std >  0.68
+|   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |--- B8A_mean >  0.72
+|   |   |   |   |--- B03_std <= 2.16
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- B03_std >  2.16
+|   |   |   |   |   |--- truncated branch of depth 4

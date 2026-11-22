@@ -1,0 +1,8 @@
+{
+  "test_recon_mse_mean": 0.005521642509847879,
+  "latent_dim": 64,
+  "beta": 1.0,
+  "epochs": 5,
+  "final_train_recon": 71.78395930098014,
+  "final_train_kl": 16.961030278649176
+}

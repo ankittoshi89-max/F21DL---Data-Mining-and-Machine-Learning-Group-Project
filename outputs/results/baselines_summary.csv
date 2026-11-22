@@ -1,0 +1,13 @@
+model,feature_set,accuracy,macro_f1,macro_precision,macro_recall,val_macro_f1
+decision_tree__all,all,0.8412,0.8361,0.8357,0.8367,0.8391
+decision_tree__visible,visible,0.6783,0.6733,0.6738,0.6738,0.6747
+knn__all,all,0.9052,0.8997,0.8992,0.9019,0.9013
+knn__visible,visible,0.7565,0.7476,0.7489,0.7518,0.7434
+logistic_regression__all,all,0.9094,0.9056,0.9055,0.9062,0.9019
+logistic_regression__visible,visible,0.6805,0.6665,0.6665,0.6722,0.6641
+naive_bayes__all,all,0.7296,0.7236,0.7355,0.7315,0.7232
+naive_bayes__visible,visible,0.4486,0.4177,0.4355,0.4532,0.4221
+perceptron__all,all,0.8494,0.8402,0.8459,0.841,0.8387
+perceptron__visible,visible,0.4738,0.4551,0.5429,0.4578,0.4577
+random_forest__all,all,0.9032,0.8992,0.8991,0.8996,0.8999
+random_forest__visible,visible,0.7583,0.7482,0.7481,0.7524,0.7495

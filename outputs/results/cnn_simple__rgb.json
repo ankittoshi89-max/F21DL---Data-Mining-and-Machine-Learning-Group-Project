@@ -1,0 +1,41 @@
+{
+  "model": "cnn_simple__rgb",
+  "accuracy": 0.9368,
+  "macro_precision": 0.936,
+  "macro_recall": 0.935,
+  "macro_f1": 0.935,
+  "weighted_f1": 0.9367,
+  "per_class_f1": {
+    "AnnualCrop": 0.9124,
+    "Forest": 0.9844,
+    "HerbaceousVegetation": 0.9111,
+    "Highway": 0.9151,
+    "Industrial": 0.9508,
+    "Pasture": 0.9309,
+    "PermanentCrop": 0.8898,
+    "Residential": 0.9753,
+    "River": 0.9019,
+    "SeaLake": 0.9788
+  },
+  "per_class_recall": {
+    "AnnualCrop": 0.9378,
+    "Forest": 0.98,
+    "HerbaceousVegetation": 0.9222,
+    "Highway": 0.8907,
+    "Industrial": 0.9787,
+    "Pasture": 0.9433,
+    "PermanentCrop": 0.8507,
+    "Residential": 0.9667,
+    "River": 0.9067,
+    "SeaLake": 0.9733
+  },
+  "feature_set": "rgb",
+  "arch": "simple",
+  "epochs_run": 5,
+  "best_val_macro_f1": 0.9342,
+  "params_millions": 1.18,
+  "lr": 0.001,
+  "batch_size": 128,
+  "weight_decay": 0.0001,
+  "train_time_min": 14.3
+}

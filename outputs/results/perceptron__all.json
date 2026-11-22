@@ -1,0 +1,40 @@
+{
+  "model": "perceptron__all",
+  "accuracy": 0.8494,
+  "macro_precision": 0.8459,
+  "macro_recall": 0.841,
+  "macro_f1": 0.8402,
+  "weighted_f1": 0.846,
+  "per_class_f1": {
+    "AnnualCrop": 0.7787,
+    "Forest": 0.9658,
+    "HerbaceousVegetation": 0.8726,
+    "Highway": 0.5559,
+    "Industrial": 0.9151,
+    "Pasture": 0.8116,
+    "PermanentCrop": 0.6968,
+    "Residential": 0.8766,
+    "River": 0.9342,
+    "SeaLake": 0.9944
+  },
+  "per_class_recall": {
+    "AnnualCrop": 0.8956,
+    "Forest": 0.9422,
+    "HerbaceousVegetation": 0.8756,
+    "Highway": 0.4907,
+    "Industrial": 0.92,
+    "Pasture": 0.79,
+    "PermanentCrop": 0.6373,
+    "Residential": 0.9,
+    "River": 0.9653,
+    "SeaLake": 0.9933
+  },
+  "feature_set": "all",
+  "n_features": 32,
+  "best_params": {
+    "alpha": "1e-05",
+    "penalty": "None"
+  },
+  "val_macro_f1": 0.8387,
+  "tuning_time_s": 2.2
+}

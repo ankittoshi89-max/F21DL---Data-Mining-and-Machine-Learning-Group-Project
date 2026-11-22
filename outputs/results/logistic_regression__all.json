@@ -1,0 +1,39 @@
+{
+  "model": "logistic_regression__all",
+  "accuracy": 0.9094,
+  "macro_precision": 0.9055,
+  "macro_recall": 0.9062,
+  "macro_f1": 0.9056,
+  "weighted_f1": 0.9087,
+  "per_class_f1": {
+    "AnnualCrop": 0.8936,
+    "Forest": 0.9877,
+    "HerbaceousVegetation": 0.9168,
+    "Highway": 0.7303,
+    "Industrial": 0.9335,
+    "Pasture": 0.9049,
+    "PermanentCrop": 0.8436,
+    "Residential": 0.9067,
+    "River": 0.9451,
+    "SeaLake": 0.9933
+  },
+  "per_class_recall": {
+    "AnnualCrop": 0.8956,
+    "Forest": 0.9844,
+    "HerbaceousVegetation": 0.9311,
+    "Highway": 0.6933,
+    "Industrial": 0.936,
+    "Pasture": 0.92,
+    "PermanentCrop": 0.856,
+    "Residential": 0.9178,
+    "River": 0.9413,
+    "SeaLake": 0.9867
+  },
+  "feature_set": "all",
+  "n_features": 32,
+  "best_params": {
+    "C": "100"
+  },
+  "val_macro_f1": 0.9019,
+  "tuning_time_s": 10.9
+}
