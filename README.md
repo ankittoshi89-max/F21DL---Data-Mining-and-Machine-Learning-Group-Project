@@ -17,8 +17,8 @@ affect classification performance across the 10 EuroSAT land-cover classes?
 Python 3.11 or newer.
 
 ```bash
-git clone <our-repo-url>
-cd eurosat-landcover
+git clone https://github.com/ankittoshi89-max/F21DL---Data-Mining-and-Machine-Learning-Group-Project.git
+cd F21DL---Data-Mining-and-Machine-Learning-Group-Project
 python -m venv .venv
 # Windows: .venv\Scripts\activate      Mac/Linux: source .venv/bin/activate
 pip install -r requirements.txt
